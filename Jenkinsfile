@@ -24,7 +24,7 @@ pipeline{
 		stage("Deploying to rancher"){
 			steps{
 				script{
-					sh 'kubectl rollout restart deploy test'
+					sh 'kubectl rollout restart deploy swe645'
 				}
 			}
 		}
