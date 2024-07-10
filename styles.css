@@ -1,0 +1,117 @@
+/* Importing a font from Google Fonts */
+@import 'https://fonts.googleapis.com/css?family=Special+Elite';
+
+/* Styling for h1 elements */
+h1 {
+    color: #006633 !important;
+}
+
+/* Styling for 'legend' elements */
+legend {
+    padding-top: 10px;
+}
+
+/* Styling for 'p' elements */
+p {
+    padding-top: 10px;
+}
+
+/* Styling for 'label' elements */
+label {
+    padding-top: 50px;
+}
+
+/* Styling for the entire body */
+body {
+    background-color: #ffcc33 !important;
+    font-family: Helvetica, sans-serif;
+    color: #d9d9d9 !important;
+}
+
+/* Restyling for h1 elements */
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Special Elite', Helvetica, sans-serif;
+    color: #006633 !important;
+}
+
+/* Styling for 'textarea' elements */
+textarea {
+    width: 100%;
+    margin-top: 1.5%;
+    resize: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #000;
+}
+
+/* Styling for 'input' and 'select' elements */
+input, select {
+    /* width: 100% !important; */
+    margin-top: 1.5% !important;
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid #fff !important;
+    font-size: 1.2em !important;
+    color: #d9d9d9;
+}
+
+/* Styling for an element with the ID 'dropdown' */
+#dropdown {
+    border: 2px solid #006633 !important;
+}
+
+/* Styling for checkbox and radio input elements */
+[type="checkbox"],
+[type="radio"] {
+    width: auto;
+}
+
+/* Styling for 'fieldset' elements */
+fieldset {
+    border-color: #fff;
+    border-style: solid;
+}
+
+/* Styling for an element with class 'box-container' */
+.box-container {
+    border-radius: 50px;
+    margin: 2% 30% 2% 30%;
+    padding: 1% 2% 1% 2%;
+    background-color: #006633 !important;
+    border-color: #fff;
+    border-style: dashed;
+}
+
+/* Styling for an element with class 'button' */
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #FFF;
+    color: #000;
+    cursor: pointer;
+    padding: 2% 0% 2% 0%;
+}
+
+/* Styling for an element with class 'foot' */
+.foot {
+    text-align: center;
+    font-family: 'Special Elite', Helvetica, sans-serif;
+    color: #006633 !important;
+    padding: 0% 0% 1% 0%;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .container {
+        border-radius: 25px;
+        margin: 0% 3% 5% 3%;
+        padding: 3% 5% 3% 5%;
+        background-color: #29353d;
+        color: #d9d9d9;
+    }
+}
